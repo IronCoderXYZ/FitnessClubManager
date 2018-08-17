@@ -49,6 +49,7 @@ public class FileHandler {
                 writer.write(s + "\n");
             }
         }
+
         catch (IOException e) {
             System.out.println(e.getMessage());
         }
