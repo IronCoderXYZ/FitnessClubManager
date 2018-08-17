@@ -11,7 +11,7 @@ public class MultiClubMember extends Member {
     public int getMembershipPoints() {
         return membershipPoints;
     }
-    
+
     public void setMembershipPoints(int pMembershipPoints) {
         membershipPoints = pMembershipPoints;
     }
