@@ -48,7 +48,7 @@ public class Member {
     @Override
     public String toString() {
         String output = String.format(
-                "Type: %c, ID: %d, Name: %s, Fees: %d", memberType, memberID, name, fees
+                "Type: %c, ID: %d, Name: %s, Fees: %f", memberType, memberID, name, fees
         );
         return output;
     }
